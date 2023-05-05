@@ -381,7 +381,7 @@ def generate_text_semantic(
     top_k=None,
     top_p=None,
     silent=False,
-    min_eos_p=0.2,
+    min_eos_p=0.05,
     max_gen_duration_s=None,
     allow_early_stop=True,
     use_kv_caching=False,
